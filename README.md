@@ -1,1 +1,1 @@
-# 3rd_grade
+# MazeSearch
