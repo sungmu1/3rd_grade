@@ -6,13 +6,13 @@ using namespace std;
 extern int** alloc2DInt( int rows, int cols);
 extern void free2DInt (int** mat, int rows, int cols=0);
 
-int**	map=NULL;
-int		rows=1;
-int		cols=0;
+int** map=NULL;
+int rows=1;
+int cols=0;
 
-int		initEnergy = 0;
-int		mazeMove=0;
-double	mana=0;
+int initEnergy = 0;
+int mazeMove=0;
+double mana=0;
 
 void loadMazeFile();
 void printMaze(stack<Location2D> here, int r, int c, int mode);
